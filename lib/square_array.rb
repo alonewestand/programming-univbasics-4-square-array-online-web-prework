@@ -1,9 +1,13 @@
 def square_array(array)
-  squared = []
-  count = 0
-  while count < array.size do
-    squared << (array[count] ** 2)
-    count = count + 1
-  end
-  squared
+    counter = 0
+    square_bois = []
+
+    while array[counter]
+    square_bois.push array[counter]**2
+    counter+=1
+    end
+    square_bois
 end
+
+numbas= [3, 6, 9]
+square_array(numbas)
